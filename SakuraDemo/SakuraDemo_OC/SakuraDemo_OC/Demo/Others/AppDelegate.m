@@ -84,6 +84,7 @@
     .backgroundImage(@"Global.tabBarBackgroundImage")
     .tintColor(@"Global.tabTitleSelectColor");
     
+    // @available 不应该是swift的？怎么在这里能用？
     if (@available(iOS 10.0, *)) {
         tabBarController.tabBar.sakura
         .unselectedItemTintColor(@"Global.tabTitleColor");
